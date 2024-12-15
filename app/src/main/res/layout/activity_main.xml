@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/eTUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="Enter your Username"
+                android:inputType="textEmailAddress"
+                android:textColor="#C11D1D"
+                android:textColorHint="#1823C7">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/eTPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="Enter your Password"
+                android:inputType="textPassword"
+                android:textColorHint="#1823C7">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/bTN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:marqueeRepeatLimit="@integer/material_motion_duration_long_1"
+                android:background="@color/black"
+                android:backgroundTint="#BF1616"
+                android:text="Click Me">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/img">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img2">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img3">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img4">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img5">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img6">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img7">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img8">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img9">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img10">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
